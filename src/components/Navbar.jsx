@@ -3,14 +3,19 @@ import './Navbar.css'; // Archivo CSS para estilos
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#about">Acerca de</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
+    <header className="header">
+      <a href="#" className="logo">BizJeet!</a>
+
+      <div className="bx bx-menu" id="menu-icon"></div>
+      <nav className="navbar">
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Create Bizz</a>
+        <a href="#">Contact</a>
+
+        <span className="active-nav"></span>
+      </nav>
+    </header>
   );
 }
 

@@ -1,9 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Questions from "./components/Questions";
-import Carousel from "./components/Carousel";
-
+import Home from "./components/Home";
 
 
 export default function App() {
@@ -11,10 +9,8 @@ export default function App() {
     <div>
     
       <Navbar/>
-      <Carousel/>
-      <Questions/>
-     
-
+      <Home/>
+    
     </div>
   );
 }
